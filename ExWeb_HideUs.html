@@ -32,8 +32,14 @@
                 <option value="falcon9">Falcon 9</option>
                 <option value="falconheavy">FALCON HEAVY</option>
             </select>
-            <label for="typeservice">|Type of Service:&nbsp;</label>
-            <input type="text" id="typeservice">
+            <label for="service">|Type of Service:&nbsp;</label>
+            <input type="search" id="service" name="service" list="services">
+            <datalist id="services">
+                <option value="Lorem ipsum dolor">Lorem ipsum dolor</option>
+                <option value="sit amet consectetur adi">sit amet consectetur adi</option>
+                <option value="pisicing elit. Eligendi">pisicing elit. Eligendi</option>
+                <option value="sectetur adipisicing elit. Debitis">sectetur adipisicing elit. Debitis</option>
+            </datalist>
         </form>
         <br><br>
         <input type="submit" value="Send Message">

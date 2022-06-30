@@ -2,8 +2,40 @@
 <html>
     <head>
         <title>SpaceX</title>
+        <a href="ExWebsite.html">
+        <img src="C:\Users\danie\Desktop\Projetos vscode\ExSpaceX\logo.png">
+        </a>
+        |
+        <a href="ExWeb_Spaceship.html">
+            The Spaceships
+        </a>
+        |
+        <a href="ExWeb_HideUs.html">
+            Hire Us
+        </a>
+        <hr>
     </head>
     <body>
-
+        <h3>Hire Us Now</h3>
+        <p>Leave a messege to request one of our services and we will get back to you as soon as possible.</p>
+        <br>
+        <form>
+            <label for="name">Nome:&nbsp;</label>
+            <input type="text" id="name" placeholder="MeuNome">
+            <label for="email">-&nbsp;E-mail:&nbsp;</label>
+            <input type="email" id="email" placeholder="MeuE-mail@dominio.com">
+        </form>
+        <br><br>
+        <form>
+            <label for="spaceships">Spaceships:&nbsp;</label>
+            <select name="spaceships" id="spaceships">
+                <option value="falcon9">Falcon 9</option>
+                <option value="falconheavy">FALCON HEAVY</option>
+            </select>
+            <label for="typeservice">|Type of Service:&nbsp;</label>
+            <input type="text" id="typeservice">
+        </form>
+        <br><br>
+        <input type="submit" value="Send Message">
     </body>
 </html>
